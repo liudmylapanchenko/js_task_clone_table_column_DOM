@@ -1,0 +1,2 @@
+for(var t=document.querySelector("table").rows,e=[],l=0;l<t.length;l++){var r=t[l].cells[1];e.push(r?r.textContent.trim():"")}for(var n=0,h=0;h<t.length;h++)n=Math.max(n,t[h].cells.length);for(var o=n-1,a=0;a<t.length;a++){t[a].cells.length<n&&t[a].insertCell(-1);var c=t[a].insertCell(o);0===a||a===t.length-1?c.outerHTML="<th>".concat(e[a],"</th>"):c.textContent=e[a]}
+//# sourceMappingURL=index.e415168d.js.map
